@@ -71,6 +71,7 @@ function Bands() {
                     {bands.map((band) => (
                         <tr key={band.id}>
                             <td>{band.id}</td>
+                            {/*eslint-disable-next-line*/}
                             <td><a href="#" onClick={() => onClickName(band.id)}>{band.name}</a></td>
                             <td>{band.country}</td>
                             <td>{band.genre}</td>
