@@ -86,7 +86,7 @@ function Bands() {
         <div>
         <Row style={{backgroundColor: "#A6C8CD"}}>
             <Col md={1} style={{marginTop: "1%", marginBottom: "1%"}}>
-                <img src="notes.png" style={{maxHeight: "3vw", width: "auto"}}></img>
+                <img src="notes.png" alt="decorative" style={{maxHeight: "3vw", width: "auto"}}></img>
             </Col>
             <Col>
                 <h1 style={{marginTop: "1%"}}><FormattedMessage id="title"/></h1>
