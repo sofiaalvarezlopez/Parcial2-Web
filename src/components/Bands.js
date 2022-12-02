@@ -91,12 +91,13 @@ function Bands() {
                 <h1 style={{marginTop: "1%"}}><FormattedMessage id="title"/></h1>
             </Col>
             </Row>
-        <Container>
+        <Container style={{marginTop: "4vw"}}>
             <Row>
             <Col md={8}>
          <GetTable/>
          <Row>
-         <p style={{alignItems: "left"}}><FormattedMessage id="oldestBand" values={{ nameOldestBand: nameOldestBand, greatestDifference: greatestDifference }}/></p>
+         <p style={{textAlign: "left"}}><FormattedMessage id="oldestBand" 
+         values={{ nameOldestBand: nameOldestBand, greatestDifference: greatestDifference }}/></p>
         </Row>
          </Col>
          <Col md={4} style={{ visibility: detailVisibility(), alignItems: "right" }} >
