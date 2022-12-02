@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import Elementos from "./Elementos";
+import Bands from "./components/Bands";
 //import ElementosDetail from './ElementosDetail';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
         <Routes>
-         {/* <Route path="/" element={<Elementos />} />*/}
+          <Route path="/" element={<Bands />} />
          {/* <Route path="/elementos/:elementoId" element={<ElementosDetail/>} />*/}
         </Routes>
       </BrowserRouter>

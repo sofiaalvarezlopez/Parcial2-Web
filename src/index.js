@@ -9,7 +9,7 @@ import {IntlProvider} from 'react-intl';
 import localeEsMessages from "./locales/es";
 import localeEnMessages from "./locales/en";
 
-const localeLangMessages =  navigator.language.startsWith('es') ? localeEsMessages : localeEnMessages;
+const localeLangMessages =  navigator.language.startsWith('es') ? localeEnMessages : localeEnMessages;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

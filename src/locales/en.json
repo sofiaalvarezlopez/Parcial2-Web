@@ -1,4 +1,8 @@
 {
-
-
- }
+    "title": "Music Bands",
+    "name": "Name",
+    "country": "Country",
+    "genre": "Genre",
+    "foundation": "Foundation",
+    "oldestBand": "The oldest band is {nameOldestBand} and it was founded {greatestDifference} years ago."
+}
