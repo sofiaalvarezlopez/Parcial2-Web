@@ -71,7 +71,7 @@ function Bands() {
                     {bands.map((band) => (
                         <tr>
                             <td>{band.id}</td>
-                            <td><a onClick={() => onClickName(band.id)}>{band.name}</a></td>
+                            <td><a href="#" onClick={() => onClickName(band.id)}>{band.name}</a></td>
                             <td>{band.country}</td>
                             <td>{band.genre}</td>
                             <td>{band.foundation_year}</td>
@@ -82,10 +82,11 @@ function Bands() {
         );}
 
       return(
-        <Container>
-            <Row style={{backgroundColor: "pink"}}>
+        <div>
+        <Row style={{backgroundColor: "#A6C8CD"}}>
                 <h1><FormattedMessage id="title"/></h1>
             </Row>
+        <Container>
             <Row>
             <Col md={8}>
          <GetTable/>
@@ -99,6 +100,7 @@ function Bands() {
             </Row>
         
       </Container>
+      </div>
       );
 }
 
