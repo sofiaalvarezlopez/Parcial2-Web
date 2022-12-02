@@ -69,7 +69,7 @@ function Bands() {
                 </thead>
                 <tbody>
                     {bands.map((band) => (
-                        <tr>
+                        <tr key={band.id}>
                             <td>{band.id}</td>
                             <td><a href="#" onClick={() => onClickName(band.id)}>{band.name}</a></td>
                             <td>{band.country}</td>
@@ -84,7 +84,12 @@ function Bands() {
       return(
         <div>
         <Row style={{backgroundColor: "#A6C8CD"}}>
-                <h1><FormattedMessage id="title"/></h1>
+            <Col md={1} style={{marginTop: "1%", marginBottom: "1%"}}>
+                <img src="notes.png" style={{maxHeight: "3vw", width: "auto"}}></img>
+            </Col>
+            <Col>
+                <h1 style={{marginTop: "1%"}}><FormattedMessage id="title"/></h1>
+            </Col>
             </Row>
         <Container>
             <Row>
